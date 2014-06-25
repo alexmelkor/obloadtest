@@ -2635,7 +2635,7 @@
             <sampleCount>true</sampleCount>
           </value>
         </objProp>
-        <stringProp name="filename">/home/toor/jmeter/obloadtest/results/result.xml</stringProp>
+        <stringProp name="filename">results/result.xml</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="DistributionGraphVisualizer" testclass="ResultCollector" testname="Distribution Graph (alpha)" enabled="false">

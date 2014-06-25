@@ -1,191 +1,46 @@
-2014/06/25 09:41:50 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Loading user properties from: /home/toor/jmeter/apache-jmeter-2.11/bin/user.properties 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Loading system properties from: /home/toor/jmeter/apache-jmeter-2.11/bin/system.properties 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Version 2.11 r1554548 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: java.version=1.7.0_60 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: os.name=Linux 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: os.arch=amd64 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: os.version=3.13.0-29-generic 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: JMeterHome=/home/toor/jmeter/apache-jmeter-2.11 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: user.dir  =/home/toor/jmeter/obloadtest 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: PWD       =/home/toor/jmeter/obloadtest 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: ubuntu FullName: ubuntu 
-2014/06/25 09:41:50 INFO  - jmeter.services.FileServer: Default base='/home/toor/jmeter/obloadtest' 
-2014/06/25 09:41:50 INFO  - jmeter.services.FileServer: Set new base='/home/toor/jmeter/obloadtest' 
-2014/06/25 09:41:50 INFO  - jmeter.JMeter: Loading file: /home/toor/jmeter/obloadtest/openforbeta.jmx 
-2014/06/25 09:41:51 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2014/06/25 09:41:51 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2014/06/25 09:41:51 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.6 
-2014/06/25 09:41:51 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1554411 
-2014/06/25 09:41:51 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2014/06/25 09:41:51 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2014/06/25 09:41:51 INFO  - jmeter.JMeter: Creating summariser <summary> 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2014/06/25 09:41:51 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2014/06/25 09:41:51 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2014/06/25 09:41:51 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2014/06/25 09:41:51 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2014/06/25 09:41:51 INFO  - jmeter.JMeter: Running test (1403714511644) 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Reqular_user 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 10 threads for group Reqular_user. 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 10 ramp-up 20 perThread 2000.0 delayedStart=false 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 2 : Anonimous_User 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Anonimous_User. 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 2 threads 20 ramp-up 40 perThread 2000.0 delayedStart=false 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Started thread group number 2 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 3 : Send message to other user 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Send message to other user. 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 3 threads 5 ramp-up 10 perThread 2000.0 delayedStart=false 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Started thread group number 3 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 4 : Browse categories 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 10 threads for group Browse categories. 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 4 threads 10 ramp-up 20 perThread 2000.0 delayedStart=false 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: Thread started: Send message to other user 3-1 
-2014/06/25 09:41:51 INFO  - jmeter.services.FileServer: Stored: usernames_unsorted.csv 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-1 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-1 
-2014/06/25 09:41:51 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-1 
-2014/06/25 09:41:51 INFO  - jmeter.services.FileServer: Stored: /home/toor/jmeter/obloadtest/search_queries.csv 
-2014/06/25 09:41:51 INFO  - jmeter.services.FileServer: Stored: /home/toor/jmeter/obloadtest/accounts.csv 
-2014/06/25 09:41:51 INFO  - jmeter.threads.ThreadGroup: Started thread group number 4 
-2014/06/25 09:41:51 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2014/06/25 09:41:53 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = ubuntu 
-2014/06/25 09:41:53 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
-2014/06/25 09:41:53 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
-2014/06/25 09:41:53 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
-2014/06/25 09:41:53 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
-2014/06/25 09:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Send message to other user 3-2 
-2014/06/25 09:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-2 
-2014/06/25 09:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-2 
-2014/06/25 09:41:53 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-2 
-2014/06/25 09:41:54 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2014/06/25 09:41:54 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2014/06/25 09:41:54 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2014/06/25 09:41:54 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2014/06/25 09:41:55 INFO  - jmeter.threads.JMeterThread: Thread started: Send message to other user 3-3 
-2014/06/25 09:41:55 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-3 
-2014/06/25 09:41:55 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-3 
-2014/06/25 09:41:55 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-3 
-2014/06/25 09:41:57 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-4 
-2014/06/25 09:41:57 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-4 
-2014/06/25 09:41:57 INFO  - jmeter.threads.JMeterThread: Thread started: Send message to other user 3-4 
-2014/06/25 09:41:57 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-4 
-2014/06/25 09:41:59 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-5 
-2014/06/25 09:41:59 INFO  - jmeter.threads.JMeterThread: Thread started: Send message to other user 3-5 
-2014/06/25 09:41:59 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-5 
-2014/06/25 09:41:59 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-5 
-2014/06/25 09:42:00 INFO  - jmeter.reporters.Summariser: summary +     15 in     6s =    2.5/s Avg:   660 Min:   416 Max:  2051 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0 
-2014/06/25 09:42:01 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-6 
-2014/06/25 09:42:01 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-6 
-2014/06/25 09:42:01 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-6 
-2014/06/25 09:42:03 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-7 
-2014/06/25 09:42:03 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-7 
-2014/06/25 09:42:03 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-7 
-2014/06/25 09:42:05 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-8 
-2014/06/25 09:42:05 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-8 
-2014/06/25 09:42:05 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-8 
-2014/06/25 09:42:07 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-9 
-2014/06/25 09:42:07 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-9 
-2014/06/25 09:42:07 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-9 
-2014/06/25 09:42:09 INFO  - jmeter.threads.JMeterThread: Thread started: Reqular_user 1-10 
-2014/06/25 09:42:09 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-10 
-2014/06/25 09:42:09 INFO  - jmeter.threads.JMeterThread: Thread started: Browse categories 4-10 
-2014/06/25 09:42:11 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-11 
-2014/06/25 09:42:13 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-12 
-2014/06/25 09:42:15 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-13 
-2014/06/25 09:42:17 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-14 
-2014/06/25 09:42:19 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-15 
-2014/06/25 09:42:21 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-16 
-2014/06/25 09:42:23 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-17 
-2014/06/25 09:42:25 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-18 
-2014/06/25 09:42:27 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-19 
-2014/06/25 09:42:29 INFO  - jmeter.threads.JMeterThread: Thread started: Anonimous_User 2-20 
-2014/06/25 09:42:30 INFO  - jmeter.reporters.Summariser: summary +    258 in  31.3s =    8.2/s Avg:   833 Min:   346 Max:  3229 Err:     5 (1.94%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:42:30 INFO  - jmeter.reporters.Summariser: summary =    273 in    36s =    7.6/s Avg:   823 Min:   346 Max:  3229 Err:     5 (1.83%) 
-2014/06/25 09:43:00 INFO  - jmeter.reporters.Summariser: summary +    366 in  31.3s =   11.7/s Avg:   675 Min:   346 Max:  2371 Err:     5 (1.37%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:43:00 INFO  - jmeter.reporters.Summariser: summary =    639 in    66s =    9.7/s Avg:   738 Min:   346 Max:  3229 Err:    10 (1.56%) 
-2014/06/25 09:43:30 INFO  - jmeter.reporters.Summariser: summary +    360 in    31s =   11.6/s Avg:   750 Min:   348 Max:  2318 Err:     4 (1.11%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:43:30 INFO  - jmeter.reporters.Summariser: summary =    999 in    96s =   10.4/s Avg:   743 Min:   346 Max:  3229 Err:    14 (1.40%) 
-2014/06/25 09:44:00 INFO  - jmeter.reporters.Summariser: summary +    365 in    31s =   11.8/s Avg:   679 Min:   346 Max:  3126 Err:     5 (1.37%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:44:00 INFO  - jmeter.reporters.Summariser: summary =   1364 in   126s =   10.8/s Avg:   726 Min:   346 Max:  3229 Err:    19 (1.39%) 
-2014/06/25 09:44:32 INFO  - jmeter.reporters.Summariser: summary +    334 in  33.3s =   10.0/s Avg:   822 Min:   346 Max:  3247 Err:     3 (0.90%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:44:32 INFO  - jmeter.reporters.Summariser: summary =   1698 in   159s =   10.7/s Avg:   745 Min:   346 Max:  3247 Err:    22 (1.30%) 
-2014/06/25 09:45:00 INFO  - jmeter.reporters.Summariser: summary +    264 in    33s =    8.1/s Avg:  2298 Min:   348 Max: 12341 Err:     5 (1.89%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:45:00 INFO  - jmeter.reporters.Summariser: summary =   1962 in   186s =   10.6/s Avg:   954 Min:   346 Max: 12341 Err:    27 (1.38%) 
-2014/06/25 09:45:30 INFO  - jmeter.reporters.Summariser: summary +    351 in  33.2s =   10.6/s Avg:   733 Min:   347 Max:  3324 Err:     2 (0.57%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:45:30 INFO  - jmeter.reporters.Summariser: summary =   2313 in   216s =   10.7/s Avg:   920 Min:   346 Max: 12341 Err:    29 (1.25%) 
-2014/06/25 09:46:00 INFO  - jmeter.reporters.Summariser: summary +    362 in    31s =   11.8/s Avg:   744 Min:   348 Max:  3557 Err:     4 (1.10%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:46:00 INFO  - jmeter.reporters.Summariser: summary =   2675 in   246s =   10.9/s Avg:   896 Min:   346 Max: 12341 Err:    33 (1.23%) 
-2014/06/25 09:46:30 INFO  - jmeter.reporters.Summariser: summary +    363 in  31.4s =   11.6/s Avg:   696 Min:   345 Max:  2717 Err:     7 (1.93%) Active: 45 Started: 45 Finished: 0 
-2014/06/25 09:46:30 INFO  - jmeter.reporters.Summariser: summary =   3038 in   276s =   11.0/s Avg:   872 Min:   345 Max: 12341 Err:    40 (1.32%) 
-2014/06/25 09:46:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-7 
-2014/06/25 09:46:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-2 
-2014/06/25 09:46:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-8 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-10 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-10 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-17 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-6 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-1 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-3 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-2 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-9 
-2014/06/25 09:46:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Send message to other user 3-5 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-7 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-4 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Send message to other user 3-1 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-1 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-6 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-20 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-19 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-3 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-18 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-8 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-8 
-2014/06/25 09:46:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Send message to other user 3-3 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-5 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-4 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-11 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-9 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-5 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-4 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-12 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-10 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-2 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-3 
-2014/06/25 09:46:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-15 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-13 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-16 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Anonimous_User 2-14 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Send message to other user 3-2 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-9 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-7 
-2014/06/25 09:46:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-5 
-2014/06/25 09:46:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Browse categories 4-1 
-2014/06/25 09:46:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Reqular_user 1-6 
-2014/06/25 09:46:57 INFO  - jmeter.threads.JMeterThread: Thread finished: Send message to other user 3-4 
-2014/06/25 09:46:57 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2014/06/25 09:46:57 INFO  - jmeter.services.FileServer: Close: /home/toor/jmeter/obloadtest/accounts.csv 
-2014/06/25 09:46:57 INFO  - jmeter.services.FileServer: Close: /home/toor/jmeter/obloadtest/search_queries.csv 
-2014/06/25 09:46:57 INFO  - jmeter.services.FileServer: Close: usernames_unsorted.csv 
-2014/06/25 09:46:57 INFO  - jmeter.reporters.Summariser: summary +    313 in  29.2s =   10.7/s Avg:   734 Min:   347 Max:  3222 Err:     2 (0.64%) Active: 0 Started: 45 Finished: 45 
-2014/06/25 09:46:57 INFO  - jmeter.reporters.Summariser: summary =   3351 in   304s =   11.0/s Avg:   859 Min:   345 Max: 12341 Err:    42 (1.25%) 
+2014/06/25 10:37:24 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Loading user properties from: /home/toor/jmeter/apache-jmeter-2.11/bin/user.properties 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Loading system properties from: /home/toor/jmeter/apache-jmeter-2.11/bin/system.properties 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Version 2.11 r1554548 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: java.version=1.7.0_60 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: os.name=Linux 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: os.arch=amd64 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: os.version=3.13.0-29-generic 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: JMeterHome=/home/toor/jmeter/apache-jmeter-2.11 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: user.dir  =/home/toor/jmeter/obloadtest 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: PWD       =/home/toor/jmeter/obloadtest 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: ubuntu FullName: ubuntu 
+2014/06/25 10:37:24 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2014/06/25 10:37:25 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2014/06/25 10:37:25 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2014/06/25 10:37:25 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform, System] 
+2014/06/25 10:37:27 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2014/06/25 10:37:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2014/06/25 10:37:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
+2014/06/25 10:37:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2014/06/25 10:37:28 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2014/06/25 10:37:28 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /home/toor/jmeter/apache-jmeter-2.11/bin/proxyserver.jks 
+2014/06/25 10:37:28 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2014/06/25 10:37:28 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2014/06/25 10:37:28 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2014/06/25 10:37:28 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2014/06/25 10:37:32 INFO  - jmeter.services.FileServer: Default base='/home/toor/jmeter/obloadtest' 
+2014/06/25 10:37:32 INFO  - jmeter.gui.action.Load: Loading file: /home/toor/jmeter/obloadtest/openforbeta.jmx 
+2014/06/25 10:37:32 INFO  - jmeter.services.FileServer: Set new base='/home/toor/jmeter/obloadtest' 
+2014/06/25 10:37:32 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2014/06/25 10:37:32 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2014/06/25 10:37:32 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.6 
+2014/06/25 10:37:32 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1554411 
+2014/06/25 10:37:32 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2014/06/25 10:37:32 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2014/06/25 10:37:33 INFO  - jmeter.services.FileServer: Set new base='/home/toor/jmeter/obloadtest' 
