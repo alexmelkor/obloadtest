@@ -1,7 +1,7 @@
 # obloadtest
 Simple load test for openforbeta.com
 
-This test demonstrates basic JMeter's features, like  parsing server's response and cycles and conditions.
+This test demonstrates basic JMeter's features, like  parsing server's response, cycles and conditions.
 Now covered only following cases:
 
 As regular user
